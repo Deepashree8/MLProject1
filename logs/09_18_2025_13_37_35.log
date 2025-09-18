@@ -1,0 +1,12 @@
+[2025-09-18 13:37:38,713] 27 root - INFO -Entered the data ingestion method or component
+[2025-09-18 13:37:38,718] 30 root - INFO -Read the dataset as dataframe
+[2025-09-18 13:37:38,726] 35 root - INFO -train test split initiator
+[2025-09-18 13:37:38,736] 40 root - INFO -INgestion of data is completed
+[2025-09-18 13:37:38,786] 70 root - INFO -read train and test data completed
+[2025-09-18 13:37:38,786] 71 root - INFO -obtaining preprocessing object
+[2025-09-18 13:37:38,786] 49 root - INFO -numerical  column standard scaling completed
+[2025-09-18 13:37:38,786] 51 root - INFO -categorail column encoding completed
+[2025-09-18 13:37:38,798] 53 root - INFO -categorical columns:['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-09-18 13:37:38,798] 54 root - INFO -numerical columns:['writing_score', 'reading_score']
+[2025-09-18 13:37:38,799] 86 root - INFO -Applying preprocessing object on trainng dataframe and testing dataframe
+[2025-09-18 13:37:38,823] 97 root - INFO -saved preprocessing object
